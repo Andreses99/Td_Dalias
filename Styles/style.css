@@ -1023,7 +1023,21 @@ header .btn {
 
 
 
-@media screen and (min-width: 0px) and (max-width: 790px) {
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    *{
+        box-sizing: border-box;
+    }
+
+   
+    header {
+      width: 400px;
+    }
+    .contacto{
+       width: 300px;
+       align-items: center;
+       display: flexbox;
+      margin: 0px;
+    }
     .product_list .productItem {
         width: 100%;
         margin-left: 0px;
